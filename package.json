@@ -1,0 +1,14 @@
+{
+  "name": "wallet-grabber",
+  "version": "1.0.0",
+  "description": "ETH wallet grabber to fetch NFT holders from smart contracts",
+  "type": "module",
+  "main": "fetch-holders.js",
+  "scripts": {
+    "start": "node fetch-holders.js"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^3.4.4",
+    "dotenv": "^16.4.7"
+  }
+}
