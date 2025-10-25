@@ -1,0 +1,3 @@
+Ronald Ong's Editions - 0x286c43f5fe33cae09dc7091b06027cddbed4d478
+Ronald Ong's edition - 0x698b266fe7b4e39da417b25349e4f9a1f43e846d
+RONALD - 0x08a28bc42092fafb9382cf62a71ebf3ee8904a21

@@ -1,0 +1,7 @@
+byteGANs - 0x45c67b2b81067911de611e11fc5c7a4605ca4162
+Decoherence by Van Arman - 0xd89f09294917a9bab6ab4817828aa6446c589b6c
+Reflection by Pindar Van Arman - 0x5137cfb461d24040f5ce6b85d860c47a24f85412
+The First Sparks of Artificial Creativity - 0x278a1b09107fefc32aac23bca0cc7e61d5e22e7d
+AI Imagined Faces : On-Chain by Van Arman - 0x68e23700e1ba3770263831fd97266382178b2fd8
+SuperRare bitGANs - 0x2d413006b09dc8953a468e662d81382942b4c0d2
+Quantum Portraits - 0x6d2652e02ef792c651c883730dbbe47e7459c9a7
