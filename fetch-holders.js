@@ -61,10 +61,10 @@ function writeAddresses(filepath, addresses) {
 
 async function main() {
   // Contract address to fetch holders from
-  const contractAddress = '0xf4f7cde685f409e4373cf0c5dc8b818046860d77';
+  const contractAddress = '0x0a1bbd57033f57e7b6743621b79fcb9eb2ce3676';
 
   // Output file name
-  const outputFile = 'wallets/crush-holders.csv';
+  const outputFile = 'wallets/event-holders.csv';
 
   try {
     console.log('=== Fetching Contract Holders ===\n');
