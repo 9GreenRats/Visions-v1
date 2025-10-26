@@ -1,0 +1,3 @@
+The Parody of a Tangled Thread - 0xa1abdd863062fa2ca1cf7caee5d9165ea4e990b7
+Summer Wagner Editions - 0x5080d614142adf5242090127365e91210c0ff4eb
+Midamerican Fever Dream - 0x2bbb1bd164f98d32887b2fe58396ddebaf959c93

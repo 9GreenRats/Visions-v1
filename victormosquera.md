@@ -1,0 +1,6 @@
+The Collector by Victor Mosquera - 0x48aecc6162131d09450d1a85607d6c2e4510c87e
+Victor Mosquera - 0xa2c94475d82d30b4ed09d8e839bece238183609d
+Victor Mosquera Editions - 0xf2e09f135f23402a45196c1c7539143f31757e44
+DIGITAL:CERAMICS - 0xa4377f3638a2779a5610e80f8f3aee867fbde0af
+Light Divide by Victor Mosquera - 0xdbcfa2aa2a56ad26f05d50df188aea82d58120df
+MAELSTROM - 0x3e48305571911e7bfe2878de59f12e8089f5a03a

@@ -145,27 +145,27 @@ async function processMarkdownFile(mdFile) {
     allHolders.push(...mergedHolders);
   }
 
-  return { baseName: artistFolder, allHolders };
+  return { artistFolder, artistName: baseName, allHolders };
 }
 
-async function createMasterCSV(baseName, allHolders) {
+async function createArtistCSV(artistFolder, artistName, allHolders) {
   if (allHolders.length === 0) {
-    console.log(`⚠️  No holders to compile for ${baseName}\n`);
+    console.log(`⚠️  No holders to compile for ${artistName}\n`);
     return;
   }
 
-  const masterFile = join(baseName, 'master-holders.csv');
-  const existingMaster = readExistingHolders(masterFile);
+  const artistFile = join(artistFolder, `${artistName}.csv`);
+  const existingArtist = readExistingHolders(artistFile);
 
-  // Dedupe master list
-  const uniqueMasterHolders = mergeAndDedupe(existingMaster, allHolders);
+  // Dedupe artist list
+  const uniqueArtistHolders = mergeAndDedupe(existingArtist, allHolders);
 
-  // Write master file
-  writeHolders(masterFile, uniqueMasterHolders);
+  // Write artist file
+  writeHolders(artistFile, uniqueArtistHolders);
 
-  console.log(`🎯 Master CSV created: ${masterFile}`);
-  console.log(`   Total unique holders: ${uniqueMasterHolders.length}`);
-  console.log(`   New holders added: ${uniqueMasterHolders.length - existingMaster.length}\n`);
+  console.log(`🎯 Artist CSV created: ${artistFile}`);
+  console.log(`   Total unique holders: ${uniqueArtistHolders.length}`);
+  console.log(`   New holders added: ${uniqueArtistHolders.length - existingArtist.length}\n`);
 }
 
 function findMarkdownFiles() {
@@ -206,7 +206,7 @@ async function main() {
       const result = await processMarkdownFile(mdFile);
 
       if (result.allHolders && result.allHolders.length > 0) {
-        await createMasterCSV(result.baseName, result.allHolders);
+        await createArtistCSV(result.artistFolder, result.artistName, result.allHolders);
         // Add to global master list
         allArtistHolders.push(...result.allHolders);
       }
@@ -221,19 +221,19 @@ async function main() {
 
   // Create master list of all artists' holders
   if (allArtistHolders.length > 0) {
-    console.log('🎯 Creating master list of all artists...');
-    const masterAllFile = join('wallets', 'master-all-holders.csv');
-    const existingMasterAll = readExistingHolders(masterAllFile);
+    console.log('🎯 Creating master holders list...');
+    const masterFile = join('wallets', 'master-holders.csv');
+    const existingMaster = readExistingHolders(masterFile);
     
     // Dedupe global master list
-    const uniqueAllHolders = mergeAndDedupe(existingMasterAll, allArtistHolders);
+    const uniqueAllHolders = mergeAndDedupe(existingMaster, allArtistHolders);
     
     // Write global master file
-    writeHolders(masterAllFile, uniqueAllHolders);
+    writeHolders(masterFile, uniqueAllHolders);
     
-    console.log(`🌟 Global master CSV created: ${masterAllFile}`);
+    console.log(`🌟 Master holders CSV created: ${masterFile}`);
     console.log(`   Total unique holders across all artists: ${uniqueAllHolders.length}`);
-    console.log(`   New holders added: ${uniqueAllHolders.length - existingMasterAll.length}\n`);
+    console.log(`   New holders added: ${uniqueAllHolders.length - existingMaster.length}\n`);
   }
 
   console.log('🎉 All done! Check your wallets folder for the results.');

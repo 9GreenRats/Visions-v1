@@ -1,0 +1,17 @@
+Super Gremplin Editions - 0x7cd73533f99f034fba9bd66ec7ae9cea30e268d2
+Croak Cabal - 0xf3e50539623b7a050e3f89bb21b9668175316316
+SUPER GREMPLIN - 0xd62f8c84f37682204a179170d4755318fdff70aa
+Gremplin - 0x1adaac3daaae37496f9762671281544f912ebf48
+Rekt Cats - 0x13fc42944dc32bba381a38f2ee64f8231ef597e2
+Punks of Walmart - 0x495f947276749ce646f68ac8c248420045cb7b5e
+Gremplin Origins (RARIBLE) - 0xdab5e342d1e2a92494164759707e74f4a79e252e
+Gremplin's Mystery Guests - 0xa606517e836f690abebe1164abf2768290dd98fe
+Gremplin OS Collection - 0x495f947276749ce646f68ac8c248420045cb7b5e
+Gremplin - Gremplin Village - 0xcdb89351709d88eaf28bbc2b8aa463f170c917bd
+Antartchicka - 0x7c18604770d15e571580d0c5a99d59e8c30d82a7
+Black Swan - 0xadaa4d3b2f78c7be44636a3c6bed48c56ef4b756
+Gremplin's Feasty Business Starter Pack - 0x8ad66409554c221e0efb3690d3bdd6fd60e22ec7
+SERPER JERMPLIN - 0x1cb976ee3db3684274853dbd5686bdf7bb3e8c2c
+Gremplin's Historical Artifacts Pack - 0x734a8720b8a4a647eb96d0bf507847ba840c22c6
+Gremplin Trufflekinder - 0xf86c8dbecc346ac38b01be7500a72fb974a836ff
+Gremplin's Mystery Zones - 0x85caf2445786bbdcb38b4d7d687e365e8aa3d2c3

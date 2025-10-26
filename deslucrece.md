@@ -3,7 +3,6 @@ Corrupted Monsters - 0x6af28d81268c03bb377c2cef551c5ad733ebe7bd
 Woodies Lore - 0x60efbfbc0f88be22b9e3210ee61094271b0bebad
 Ultra Spawns - 0x27d6f7898c0399c19358b55941900a0c87d52f99
 Monsters Editions - 0x95db22acd5df8e8cd1e90bb35e3404b1a7965723
-DesCraniums - 0x495f947276749ce646f68ac8c248420045cb7b5e
 Spawns - 0xa492622ae52df6af872b90c044a0be4d265cf6d0
 Monster Icons - 0x495f947276749ce646f68ac8c248420045cb7b5e
 Life of Mon - 0xea89b8b10b689f3445cf663d3f6b313a8edd726a

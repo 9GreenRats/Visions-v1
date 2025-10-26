@@ -1,0 +1,3 @@
+Tormius Numbered Editions - 0xf0720b5a0addc16d689fe8cefbc1b93dbc63128d
+The Art of Play - 0x2ac1b562a65ddb82e66be235f171165772b80592
+Tormius Editions - 0x2a452bba3c1b081ab14d803b1a2f9c0f667377f3
