@@ -92,6 +92,49 @@ function writeHolders(filepath, holders) {
   writeFileSync(filepath, content);
 }
 
+function generateSummaryReport(summaryData, totalUniqueHolders) {
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  let report = `NFT HOLDERS SUMMARY REPORT\n`;
+  report += `Generated: ${new Date().toLocaleString()}\n`;
+  report += `${'='.repeat(60)}\n\n`;
+
+  let totalCollections = 0;
+  let totalHolders = 0;
+
+  // Artist summaries
+  for (const artist of summaryData) {
+    report += `ARTIST: ${artist.artistName.toUpperCase()}\n`;
+    report += `${'-'.repeat(40)}\n`;
+
+    for (const collection of artist.collectionSummary) {
+      report += `  ${collection.name}\n`;
+      report += `    Contract: ${collection.address}\n`;
+      report += `    Holders: ${collection.holders.toLocaleString()}\n\n`;
+      totalCollections++;
+      totalHolders += collection.holders;
+    }
+
+    report += `  ARTIST UNIQUE HOLDERS: ${artist.uniqueHolders.toLocaleString()}\n`;
+    report += `  COLLECTIONS: ${artist.collectionSummary.length}\n\n`;
+    report += `${'='.repeat(60)}\n\n`;
+  }
+
+  // Overall summary
+  report += `OVERALL SUMMARY\n`;
+  report += `${'-'.repeat(40)}\n`;
+  report += `Total Artists: ${summaryData.length}\n`;
+  report += `Total Collections: ${totalCollections}\n`;
+  report += `Total Individual Collection Holders: ${totalHolders.toLocaleString()}\n`;
+  report += `Total Unique Holders (No Duplicates): ${totalUniqueHolders.toLocaleString()}\n`;
+  report += `Duplicate Rate: ${((totalHolders - totalUniqueHolders) / totalHolders * 100).toFixed(1)}%\n\n`;
+
+  const summaryFile = join('wallets', 'summary-report.txt');
+  writeFileSync(summaryFile, report);
+
+  console.log(`📊 Summary report created: ${summaryFile}`);
+  return summaryFile;
+}
+
 function mergeAndDedupe(existing, newHolders) {
   const allHolders = [...existing, ...newHolders];
   const uniqueHolders = [...new Set(allHolders)];
@@ -113,6 +156,7 @@ async function processMarkdownFile(mdFile) {
   console.log(`📁 Created/using folder: ${artistFolder}/\n`);
 
   const allHolders = [];
+  const collectionSummary = [];
 
   for (const collection of collections) {
     const collectionFolder = join(artistFolder, collection.folderName);
@@ -126,6 +170,11 @@ async function processMarkdownFile(mdFile) {
 
     if (newHolders.length === 0) {
       console.log(`   ⚠️  No holders found, skipping...\n`);
+      collectionSummary.push({
+        name: collection.name,
+        address: collection.address,
+        holders: 0
+      });
       continue;
     }
 
@@ -141,11 +190,27 @@ async function processMarkdownFile(mdFile) {
     console.log(`   💾 Saved ${mergedHolders.length} holders to ${holdersFile}`);
     console.log(`   📊 Added ${mergedHolders.length - existingHolders.length} new holders\n`);
 
+    // Add to summary
+    collectionSummary.push({
+      name: collection.name,
+      address: collection.address,
+      holders: mergedHolders.length
+    });
+
     // Add to master list
     allHolders.push(...mergedHolders);
   }
 
-  return { artistFolder, artistName: baseName, allHolders };
+  // Calculate unique holders for this artist
+  const uniqueArtistHolders = [...new Set(allHolders)];
+
+  return {
+    artistFolder,
+    artistName: baseName,
+    allHolders,
+    uniqueHolders: uniqueArtistHolders.length,
+    collectionSummary
+  };
 }
 
 async function createArtistCSV(artistFolder, artistName, allHolders) {
@@ -196,6 +261,7 @@ async function main() {
   console.log(`📋 Found ${mdFiles.length} markdown file(s): ${mdFiles.join(', ')}\n`);
 
   const allArtistHolders = [];
+  const summaryData = [];
 
   // Process each markdown file
   for (const mdFile of mdFiles) {
@@ -209,6 +275,12 @@ async function main() {
         await createArtistCSV(result.artistFolder, result.artistName, result.allHolders);
         // Add to global master list
         allArtistHolders.push(...result.allHolders);
+        // Add to summary data
+        summaryData.push({
+          artistName: result.artistName,
+          uniqueHolders: result.uniqueHolders,
+          collectionSummary: result.collectionSummary
+        });
       }
 
       console.log(`✅ Completed processing ${mdFile}\n`);
@@ -224,19 +296,23 @@ async function main() {
     console.log('🎯 Creating master holders list...');
     const masterFile = join('wallets', 'master-holders.csv');
     const existingMaster = readExistingHolders(masterFile);
-    
+
     // Dedupe global master list
     const uniqueAllHolders = mergeAndDedupe(existingMaster, allArtistHolders);
-    
+
     // Write global master file
     writeHolders(masterFile, uniqueAllHolders);
-    
+
     console.log(`🌟 Master holders CSV created: ${masterFile}`);
     console.log(`   Total unique holders across all artists: ${uniqueAllHolders.length}`);
     console.log(`   New holders added: ${uniqueAllHolders.length - existingMaster.length}\n`);
+
+    // Generate summary report
+    console.log('📊 Generating summary report...');
+    generateSummaryReport(summaryData, uniqueAllHolders.length);
   }
 
-  console.log('🎉 All done! Check your wallets folder for the results.');
+  console.log('🎉 All done! Check your wallets folder for the results and summary report.');
   process.exit(0);
 }
 
