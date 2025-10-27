@@ -15,10 +15,10 @@ const alchemy = new Alchemy(config);
 function sanitizeFolderName(name) {
   return name
     .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '') // Remove special chars except spaces and hyphens
-    .replace(/\s+/g, '-') // Replace spaces with hyphens
-    .replace(/-+/g, '-') // Replace multiple hyphens with single
-    .replace(/^-|-$/g, ''); // Remove leading/trailing hyphens
+    .replace(/[^a-z0-9\s-]/g, '') 
+    .replace(/\s+/g, '-') 
+    .replace(/-+/g, '-') 
+    .replace(/^-|-$/g, ''); 
 }
 
 function parseMarkdownFile(filepath) {
@@ -31,7 +31,7 @@ function parseMarkdownFile(filepath) {
     const collections = [];
 
     for (const line of lines) {
-      // Clean the line of any carriage returns and whitespace
+      
       const cleanLine = line.replace(/\r/g, '').trim();
 
       // Match pattern: "Collection Name - 0xaddress"
@@ -133,6 +133,67 @@ function generateSummaryReport(summaryData, totalUniqueHolders) {
 
   console.log(`📊 Summary report created: ${summaryFile}`);
   return summaryFile;
+}
+
+function generateDistributionReport(summaryData) {
+  let report = `NFT HOLDERS DISTRIBUTION RANKING\n`;
+  report += `Generated: ${new Date().toLocaleString()}\n`;
+  report += `${'='.repeat(60)}\n\n`;
+
+  // Prepare artist ranking data
+  const artistRanking = summaryData.map(artist => {
+    // Find the collection with the most holders
+    const topCollection = artist.collectionSummary.reduce((max, collection) => 
+      collection.holders > max.holders ? collection : max, 
+      { name: 'N/A', holders: 0 }
+    );
+
+    return {
+      artistName: artist.artistName,
+      uniqueHolders: artist.uniqueHolders,
+      totalCollections: artist.collectionSummary.length,
+      topCollection: topCollection
+    };
+  });
+
+  // Sort by unique holders (descending)
+  artistRanking.sort((a, b) => b.uniqueHolders - a.uniqueHolders);
+
+  // Generate ranking report
+  report += `ARTIST RANKING BY UNIQUE HOLDERS\n`;
+  report += `${'-'.repeat(60)}\n\n`;
+
+  artistRanking.forEach((artist, index) => {
+    const rank = index + 1;
+    report += `${rank.toString().padStart(2)}. ${artist.artistName.toUpperCase()}\n`;
+    report += `    Unique Holders: ${artist.uniqueHolders.toLocaleString()}\n`;
+    report += `    Collections: ${artist.totalCollections}\n`;
+    report += `    Top Collection: ${artist.topCollection.name}\n`;
+    report += `    Top Collection Holders: ${artist.topCollection.holders.toLocaleString()}\n\n`;
+  });
+
+  // Add statistics
+  report += `${'='.repeat(60)}\n`;
+  report += `DISTRIBUTION STATISTICS\n`;
+  report += `${'-'.repeat(30)}\n`;
+  
+  const totalArtists = artistRanking.length;
+  const avgHolders = Math.round(artistRanking.reduce((sum, artist) => sum + artist.uniqueHolders, 0) / totalArtists);
+  const medianHolders = artistRanking[Math.floor(totalArtists / 2)].uniqueHolders;
+  const topArtist = artistRanking[0];
+  const bottomArtist = artistRanking[totalArtists - 1];
+
+  report += `Total Artists: ${totalArtists}\n`;
+  report += `Average Holders per Artist: ${avgHolders.toLocaleString()}\n`;
+  report += `Median Holders: ${medianHolders.toLocaleString()}\n`;
+  report += `Highest: ${topArtist.artistName} (${topArtist.uniqueHolders.toLocaleString()} holders)\n`;
+  report += `Lowest: ${bottomArtist.artistName} (${bottomArtist.uniqueHolders.toLocaleString()} holders)\n`;
+
+  const distributionFile = join('wallets', 'distribution.txt');
+  writeFileSync(distributionFile, report);
+
+  console.log(`📈 Distribution report created: ${distributionFile}`);
+  return distributionFile;
 }
 
 function mergeAndDedupe(existing, newHolders) {
@@ -310,9 +371,13 @@ async function main() {
     // Generate summary report
     console.log('📊 Generating summary report...');
     generateSummaryReport(summaryData, uniqueAllHolders.length);
+
+    // Generate distribution ranking report
+    console.log('📈 Generating distribution ranking...');
+    generateDistributionReport(summaryData);
   }
 
-  console.log('🎉 All done! Check your wallets folder for the results and summary report.');
+  console.log('🎉 All done! Check your wallets folder for the results, summary report, and distribution ranking.');
   process.exit(0);
 }
 
