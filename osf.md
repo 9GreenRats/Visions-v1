@@ -10,6 +10,6 @@ OSF's Rekt Cities LDN - 0xe5f3d24ba4f701b199bf5270fb72b81bd2f1e6f6
 OSF's Distillery - 0x26c7de7d475aad40cf8211c0e9ad8469aa4e6878
 OSF's GOFL - 0x02965bc17aae27091d80aa88a186c52b7a9d7c64
 OSF's FIGHT NIGHT - 0x68c8e2bfeb464bdb178c9c89076f85cb59e0ff8c
-The Surprise - 0xaf55c8d83ddadc3f8afa4c12ae92a1216869754b
 OSF Editions Season 3 - 0x12749bb6aeb66486f53b6549e3d03dde3fcc1e97
 OSF Editions Season 4 - 0x923e8c634815541cdd7b47063f43527d963a2d35
+The Surprise - 0xaf55c8d83ddadc3f8afa4c12ae92a1216869754b

@@ -1,39 +1,39 @@
 NFT HOLDERS DISTRIBUTION RANKING
-Generated: 10/27/2025, 5:07:33 PM
+Generated: 10/27/2025, 8:22:52 PM
 ============================================================
 
 ARTIST RANKING BY UNIQUE HOLDERS
 ------------------------------------------------------------
 
- 1. CRYPTOPUNKS(As in deployer account)
-    Unique Holders: 9,658
+ 1. CRYPTOPUNKS
+    Unique Holders: 9,659
     Collections: 3
     Top Collection: Meebits
-    Top Collection Holders: 6,387
+    Top Collection Holders: 6,388
 
  2. XCOPY
-    Unique Holders: 7,500
+    Unique Holders: 7,499
     Collections: 6
     Top Collection: Grifters
-    Top Collection Holders: 6,441
+    Top Collection Holders: 6,439
 
- 3. TIMPERS
-    Unique Holders: 4,545
-    Collections: 6
-    Top Collection: Chimpers Chronicles
-    Top Collection Holders: 2,032
-
- 4. REKTGUY
-    Unique Holders: 3,355
+ 3. REKTGUY
+    Unique Holders: 3,356
     Collections: 1
     Top Collection: rektguy
-    Top Collection Holders: 3,355
+    Top Collection Holders: 3,356
 
- 5. GREMPLIN
-    Unique Holders: 2,392
-    Collections: 15
+ 4. GREMPLIN
+    Unique Holders: 2,352
+    Collections: 14
     Top Collection: Super Gremplin Editions
     Top Collection Holders: 1,581
+
+ 5. TIMPERS
+    Unique Holders: 2,267
+    Collections: 3
+    Top Collection: Chimpers
+    Top Collection Holders: 1,658
 
  6. REFIKANADOL
     Unique Holders: 2,189
@@ -41,335 +41,335 @@ ARTIST RANKING BY UNIQUE HOLDERS
     Top Collection: AN IMPORTANT MEMORY FOR HUMANITY
     Top Collection Holders: 1,474
 
- 7. DANGUIZ
-    Unique Holders: 2,061
-    Collections: 3
-    Top Collection: Dangiuz Editions
-    Top Collection Holders: 2,030
-
- 8. FVCKRENDER
+ 7. FVCKRENDER
     Unique Holders: 1,862
     Collections: 8
     Top Collection: FVCK_CRYSTAL//
     Top Collection Holders: 1,421
 
- 9. OSF
+ 8. OSF
     Unique Holders: 1,727
     Collections: 15
     Top Collection: OSF Editions Season 1
     Top Collection Holders: 792
 
-10. DESLUCRECE
-    Unique Holders: 1,635
-    Collections: 8
-    Top Collection: Proceed w/ Caution
-    Top Collection Holders: 1,269
-
-11. VICTORMOSQUERA
+ 9. VICTORMOSQUERA
     Unique Holders: 1,623
     Collections: 6
     Top Collection: The Collector by Victor Mosquera
     Top Collection Holders: 1,477
 
-12. ACK
-    Unique Holders: 1,517
-    Collections: 14
-    Top Collection: The Great Color Study
-    Top Collection Holders: 835
+10. DESLUCRECE
+    Unique Holders: 1,540
+    Collections: 7
+    Top Collection: Proceed w/ Caution
+    Top Collection Holders: 1,268
 
-13. BONGDOE
-    Unique Holders: 1,483
-    Collections: 5
-    Top Collection: archive edition
-    Top Collection Holders: 1,145
-
-14. THANKYOUX
+11. THANKYOUX
     Unique Holders: 1,413
     Collections: 5
     Top Collection: STATE OF THE ART by ThankYouX
     Top Collection Holders: 619
 
-15. DIEWITHTHEMOSTLIKES
-    Unique Holders: 1,233
+12. DIEWITHTHEMOSTLIKES
+    Unique Holders: 1,232
     Collections: 10
     Top Collection: gristle buddeez worldwide
     Top Collection Holders: 469
 
-16. ALLSEEINGSENECA
+13. ALLSEEINGSENECA
     Unique Holders: 1,138
     Collections: 2
     Top Collection: Perils of Sēsē
     Top Collection Holders: 1,138
 
-17. VANARMAN
+14. VANARMAN
     Unique Holders: 1,097
     Collections: 7
     Top Collection: Reflection by Pindar Van Arman
     Top Collection Holders: 517
 
-18. SCHL0MS
+15. SCHL0MS
     Unique Holders: 1,021
     Collections: 3
     Top Collection: CAR by SHL0MS
     Top Collection Holders: 615
 
-19. TOOMUCHLAG
+16. TOOMUCHLAG
     Unique Holders: 989
     Collections: 3
     Top Collection: Le Anime by toomuchlag
     Top Collection Holders: 987
 
-20. M0DEST
+17. M0DEST
     Unique Holders: 958
     Collections: 14
     Top Collection: ₥є₥єภ†๏ร
     Top Collection Holders: 549
 
-21. DEEKAYMOTION
+18. DEEKAYMOTION
     Unique Holders: 930
     Collections: 4
     Top Collection: LetsWalk
     Top Collection Holders: 840
 
-22. DELTASAUCE
+19. ACK
+    Unique Holders: 884
+    Collections: 13
+    Top Collection: ACK EDITIONS
+    Top Collection Holders: 771
+
+20. DELTASAUCE
     Unique Holders: 740
     Collections: 6
     Top Collection: DeltaSauce Art Editions
     Top Collection Holders: 673
 
-23. KIMASENDORF
+21. KIMASENDORF
     Unique Holders: 736
     Collections: 6
     Top Collection: X0X
     Top Collection Holders: 460
 
-24. NEUROCOLOR
-    Unique Holders: 671
-    Collections: 9
-    Top Collection: neurocolor Open Editions
-    Top Collection Holders: 479
-
-25. RICKOOSTENBROEK
+22. RICKOOSTENBROEK
     Unique Holders: 635
     Collections: 4
     Top Collection: Flow State by Rik Oostenbroek
     Top Collection Holders: 438
 
-26. BRINKMAN
+23. BRINKMAN
     Unique Holders: 607
     Collections: 10
     Top Collection: Cargo
     Top Collection Holders: 214
 
-27. SLIMESUNDAY
+24. SLIMESUNDAY
     Unique Holders: 591
     Collections: 4
     Top Collection: SLIMESHOP Layers
     Top Collection Holders: 346
 
-28. PHO
+25. PHO
     Unique Holders: 544
     Collections: 3
     Top Collection: pho editions
     Top Collection Holders: 485
 
-29. RARESCRILLA
+26. BONGDOE
+    Unique Holders: 538
+    Collections: 4
+    Top Collection: archive bust
+    Top Collection Holders: 399
+
+27. RARESCRILLA
     Unique Holders: 510
     Collections: 2
     Top Collection: RARE SCRILLA FAKE EDITIONS
     Top Collection Holders: 419
 
-30. BEEPLE
+28. BEEPLE
     Unique Holders: 401
     Collections: 11
     Top Collection: BEEPLE SPRING/SUMMER COLLECTION 2021
     Top Collection Holders: 244
 
-31. DEFACED
+29. DEFACED
     Unique Holders: 395
     Collections: 2
     Top Collection: Gotta Get Gurt
     Top Collection Holders: 364
 
-32. MATTKANE
+30. MATTKANE
     Unique Holders: 367
     Collections: 7
     Top Collection: FREE MATT KANE
     Top Collection Holders: 157
 
-33. OTHERWORLD
+31. OTHERWORLD
     Unique Holders: 332
     Collections: 5
     Top Collection: Experiments
     Top Collection Holders: 190
 
-34. NICEDAYJULES
+32. NICEDAYJULES
     Unique Holders: 321
     Collections: 5
     Top Collection: objective theory editions
     Top Collection Holders: 219
 
-35. GELO
+33. GELO
     Unique Holders: 307
     Collections: 5
     Top Collection: ETH Island by gelo
     Top Collection Holders: 161
 
-36. TJO
+34. TJO
     Unique Holders: 272
     Collections: 3
     Top Collection: TJO's Editions
     Top Collection Holders: 230
 
-37. SUMMERGWAGMER
+35. SUMMERGWAGMER
     Unique Holders: 271
     Collections: 3
     Top Collection: Summer Wagner Editions
     Top Collection Holders: 158
 
-38. MUHJU
+36. MUHJU
     Unique Holders: 258
     Collections: 2
     Top Collection: Muhju Editions
     Top Collection Holders: 236
 
-39. MEELER
-    Unique Holders: 220
-    Collections: 5
-    Top Collection: Meeler's Editions
-    Top Collection Holders: 122
+37. NEUROCOLOR
+    Unique Holders: 225
+    Collections: 8
+    Top Collection: neural vibe
+    Top Collection Holders: 84
 
-40. RIPCACHE
+38. RIPCACHE
     Unique Holders: 218
     Collections: 6
     Top Collection: remote control
     Top Collection Holders: 102
 
-41. SAMSPRATT
+39. SAMSPRATT
     Unique Holders: 211
     Collections: 5
     Top Collection: Masks of Luci
     Top Collection Holders: 166
 
-42. JAKEFRIEND
+40. JAKEFRIEND
     Unique Holders: 207
     Collections: 4
     Top Collection: JAKE FRIED Editions
     Top Collection Holders: 126
 
-43. 0009
+41. 0009
     Unique Holders: 204
     Collections: 6
     Top Collection: Dual-Im·mer·sion
     Top Collection Holders: 71
 
-44. COWBOYKILLER
+42. COWBOYKILLER
     Unique Holders: 195
     Collections: 3
     Top Collection: CWBY Editions
     Top Collection Holders: 143
 
-45. MLOW
-    Unique Holders: 191
+43. MLOW
+    Unique Holders: 190
     Collections: 2
     Top Collection: THE TRANSDIMENSIONAL TRIPPERS
-    Top Collection Holders: 140
+    Top Collection Holders: 139
 
-46. EMILYXIE
+44. EMILYXIE
     Unique Holders: 189
     Collections: 4
     Top Collection: Interwoven by Emily Xie
     Top Collection Holders: 90
 
-47. ANDREASGYSIN
+45. ANDREASGYSIN
     Unique Holders: 180
     Collections: 5
     Top Collection: Crush by ertdfgcvb
     Top Collection Holders: 100
 
-48. KARBON
+46. KARBON
     Unique Holders: 161
     Collections: 5
     Top Collection: THE SEEKER
     Top Collection Holders: 101
 
-49. GRANTYUN
+47. GRANTYUN
     Unique Holders: 159
     Collections: 4
     Top Collection: Life in Japan 2 Burn
     Top Collection Holders: 118
 
-50. NOFIGURATIV
+48. NOFIGURATIV
     Unique Holders: 159
     Collections: 1
     Top Collection: Entangled
     Top Collection Holders: 159
 
-51. FFFFF
+49. FFFFF
     Unique Holders: 156
     Collections: 2
     Top Collection: ABO by Leander Herzog and 0xfff
     Top Collection Holders: 103
 
-52. MEMOAKTEN
+50. MEMOAKTEN
     Unique Holders: 134
     Collections: 1
     Top Collection: Memo Akten  (Waves 2.0: Mountains, fragments 001)
     Top Collection Holders: 134
 
-53. QUASIMONDO
+51. MEELER
+    Unique Holders: 133
+    Collections: 4
+    Top Collection: Phases Editions 2022
+    Top Collection Holders: 64
+
+52. QUASIMONDO
     Unique Holders: 122
     Collections: 4
     Top Collection: Quasimondo Collection
     Top Collection Holders: 79
 
-54. 8NAP
+53. 8NAP
     Unique Holders: 115
     Collections: 1
     Top Collection: Export Control
     Top Collection Holders: 115
 
-55. ALIENQUEEN
+54. ALIENQUEEN
     Unique Holders: 106
     Collections: 1
     Top Collection: AQ EDITIONS
     Top Collection Holders: 106
 
-56. TORMIUS
+55. TORMIUS
     Unique Holders: 101
     Collections: 3
     Top Collection: Tormius Numbered Editions
     Top Collection Holders: 51
 
-57. RONNALDONG
+56. RONNALDONG
     Unique Holders: 97
     Collections: 3
     Top Collection: Ronald Ong's edition
     Top Collection Holders: 49
 
-58. JRUFFHOUSE
+57. JRUFFHOUSE
     Unique Holders: 85
     Collections: 1
     Top Collection: Zaid Kirdsey editions on Babylon
     Top Collection Holders: 85
 
-59. EMIKUSANO
+58. EMIKUSANO
     Unique Holders: 80
     Collections: 4
     Top Collection: Cognitive Chaos Wired Realities
     Top Collection Holders: 40
 
-60. EKO33
+59. EKO33
     Unique Holders: 76
     Collections: 3
     Top Collection: Harmonic Gravitas
     Top Collection Holders: 65
 
-61. MACBETH
+60. MACBETH
     Unique Holders: 66
     Collections: 2
     Top Collection: LIMINAL_64
     Top Collection Holders: 34
+
+61. DANGUIZ
+    Unique Holders: 65
+    Collections: 2
+    Top Collection: Dangiuz X Babylon
+    Top Collection Holders: 52
 
 62. KILLERACID
     Unique Holders: 47
@@ -417,7 +417,7 @@ ARTIST RANKING BY UNIQUE HOLDERS
 DISTRIBUTION STATISTICS
 ------------------------------
 Total Artists: 68
-Average Holders per Artist: 911
-Median Holders: 307
-Highest: cryptopunks (9,658 holders)
+Average Holders per Artist: 815
+Median Holders: 271
+Highest: cryptopunks (9,659 holders)
 Lowest: vittoriobonapace (14 holders)

@@ -1,5 +1,5 @@
 NFT HOLDERS SUMMARY REPORT
-Generated: 10/27/2025, 5:07:33 PM
+Generated: 10/27/2025, 8:22:52 PM
 ============================================================
 
 ARTIST: 0009
@@ -54,10 +54,6 @@ ARTIST: ACK
     Contract: 0xd33bc0af2dc4e39cbaef4beff8d1fb3c00c2e7a3
     Holders: 41
 
-  The Great Color Study
-    Contract: 0x9f803635a5af311d9a3b73132482a95eb540f71a
-    Holders: 835
-
   ACKFTW
     Contract: 0x38fb6b6205436082612aadeca74beb97717e0206
     Holders: 51
@@ -102,8 +98,8 @@ ARTIST: ACK
     Contract: 0xa3cdefc4aea0407937ac3ea127b7491f24e5fe63
     Holders: 2
 
-  ARTIST UNIQUE HOLDERS: 1,517
-  COLLECTIONS: 14
+  ARTIST UNIQUE HOLDERS: 884
+  COLLECTIONS: 13
 
 ============================================================
 
@@ -224,10 +220,6 @@ ARTIST: BEEPLE
 
 ARTIST: BONGDOE
 ----------------------------------------
-  archive edition
-    Contract: 0x055f16af0c61aa67176224d8c2407c9a5628bcca
-    Holders: 1,145
-
   archive bust
     Contract: 0x6c5407d1c272436a66ecbc6a8110f790d5821606
     Holders: 399
@@ -244,8 +236,8 @@ ARTIST: BONGDOE
     Contract: 0x2c083197d2512de39482eaf5b82aa198520f6747
     Holders: 162
 
-  ARTIST UNIQUE HOLDERS: 1,483
-  COLLECTIONS: 5
+  ARTIST UNIQUE HOLDERS: 538
+  COLLECTIONS: 4
 
 ============================================================
 
@@ -323,23 +315,19 @@ ARTIST: CRYPTOPUNKS
 
   Meebits
     Contract: 0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7
-    Holders: 6,387
+    Holders: 6,388
 
   Autoglyphs
     Contract: 0xd4e4078ca3495de5b1d4db434bebc5a986197782
     Holders: 171
 
-  ARTIST UNIQUE HOLDERS: 9,658
+  ARTIST UNIQUE HOLDERS: 9,659
   COLLECTIONS: 3
 
 ============================================================
 
 ARTIST: DANGUIZ
 ----------------------------------------
-  Dangiuz Editions
-    Contract: 0xa72b658430b6d8bf741364ce3f2730cd4e7d9ba6
-    Holders: 2,030
-
   Dangiuz X Babylon
     Contract: 0xd5f708eae821b4dea0bc596456f7505be494803c
     Holders: 52
@@ -348,8 +336,8 @@ ARTIST: DANGUIZ
     Contract: 0x13cd8c3a8f5bcfd3237ea68e5b62eda5133b925e
     Holders: 15
 
-  ARTIST UNIQUE HOLDERS: 2,061
-  COLLECTIONS: 3
+  ARTIST UNIQUE HOLDERS: 65
+  COLLECTIONS: 2
 
 ============================================================
 
@@ -436,10 +424,6 @@ ARTIST: DESLUCRECE
     Contract: 0x27d6f7898c0399c19358b55941900a0c87d52f99
     Holders: 82
 
-  Monsters Editions
-    Contract: 0x95db22acd5df8e8cd1e90bb35e3404b1a7965723
-    Holders: 307
-
   Spawns
     Contract: 0xa492622ae52df6af872b90c044a0be4d265cf6d0
     Holders: 110
@@ -454,10 +438,10 @@ ARTIST: DESLUCRECE
 
   Proceed w/ Caution
     Contract: 0xe77ad290adab2989a81ae62ab2467c01b45feeff
-    Holders: 1,269
+    Holders: 1,268
 
-  ARTIST UNIQUE HOLDERS: 1,635
-  COLLECTIONS: 8
+  ARTIST UNIQUE HOLDERS: 1,540
+  COLLECTIONS: 7
 
 ============================================================
 
@@ -481,7 +465,7 @@ ARTIST: DIEWITHTHEMOSTLIKES
 
   negotiations with the abyss
     Contract: 0x71ce294ab5e26b3ae8d46d410e795c5265004130
-    Holders: 371
+    Holders: 370
 
   county fair shiddy prizes
     Contract: 0xd2f62f16424666ac76a682ee910ca041d3bff43d
@@ -503,7 +487,7 @@ ARTIST: DIEWITHTHEMOSTLIKES
     Contract: 0x484e5155ae4b277cdb7f13a80ab3f627ff491149
     Holders: 20
 
-  ARTIST UNIQUE HOLDERS: 1,233
+  ARTIST UNIQUE HOLDERS: 1,232
   COLLECTIONS: 10
 
 ============================================================
@@ -687,10 +671,6 @@ ARTIST: GREMPLIN
     Contract: 0xf3e50539623b7a050e3f89bb21b9668175316316
     Holders: 155
 
-  SUPER GREMPLIN
-    Contract: 0xd62f8c84f37682204a179170d4755318fdff70aa
-    Holders: 86
-
   Gremplin
     Contract: 0x1adaac3daaae37496f9762671281544f912ebf48
     Holders: 21
@@ -739,8 +719,8 @@ ARTIST: GREMPLIN
     Contract: 0x85caf2445786bbdcb38b4d7d687e365e8aa3d2c3
     Holders: 65
 
-  ARTIST UNIQUE HOLDERS: 2,392
-  COLLECTIONS: 15
+  ARTIST UNIQUE HOLDERS: 2,352
+  COLLECTIONS: 14
 
 ============================================================
 
@@ -981,10 +961,6 @@ ARTIST: MATTKANE
 
 ARTIST: MEELER
 ----------------------------------------
-  Meeler's Editions
-    Contract: 0x8bde0185c7585805f79b2980aec375686a1d0b09
-    Holders: 122
-
   Lunatics
     Contract: 0x17cb4b5c8a9afe4e33e03712596c4bc941b673ca
     Holders: 60
@@ -1001,8 +977,8 @@ ARTIST: MEELER
     Contract: 0xd3edce03e378d2a3feecc265249d03822e25b2bf
     Holders: 9
 
-  ARTIST UNIQUE HOLDERS: 220
-  COLLECTIONS: 5
+  ARTIST UNIQUE HOLDERS: 133
+  COLLECTIONS: 4
 
 ============================================================
 
@@ -1021,13 +997,13 @@ ARTIST: MLOW
 ----------------------------------------
   THE TRANSDIMENSIONAL TRIPPERS
     Contract: 0x9e1d903536791acef096dce8b69012fe0ba319d7
-    Holders: 140
+    Holders: 139
 
   MLow Editions
     Contract: 0x07f44753d4d0161ddbb9e7202a5002240608fc8d
     Holders: 58
 
-  ARTIST UNIQUE HOLDERS: 191
+  ARTIST UNIQUE HOLDERS: 190
   COLLECTIONS: 2
 
 ============================================================
@@ -1052,10 +1028,6 @@ ARTIST: NEUROCOLOR
   neurocolor's abstract paintings
     Contract: 0xd50cb63bd3c1a4e5106fd15dd7640154961e1b70
     Holders: 3
-
-  neurocolor Open Editions
-    Contract: 0xed9cf19ac80ba7e45de15c04f2c8a08228aabb2e
-    Holders: 479
 
   ShinkeiShoku
     Contract: 0xd862d9e36a8d9887ba330fbd1e3edfe76fe6cb1b
@@ -1085,8 +1057,8 @@ ARTIST: NEUROCOLOR
     Contract: 0x3262f1fe0f674509a364cf989ddc888efc314636
     Holders: 84
 
-  ARTIST UNIQUE HOLDERS: 671
-  COLLECTIONS: 9
+  ARTIST UNIQUE HOLDERS: 225
+  COLLECTIONS: 8
 
 ============================================================
 
@@ -1340,9 +1312,9 @@ ARTIST: REKTGUY
 ----------------------------------------
   rektguy
     Contract: 0xb852c6b5892256c264cc2c888ea462189154d8d7
-    Holders: 3,355
+    Holders: 3,356
 
-  ARTIST UNIQUE HOLDERS: 3,355
+  ARTIST UNIQUE HOLDERS: 3,356
   COLLECTIONS: 1
 
 ============================================================
@@ -1539,30 +1511,18 @@ ARTIST: TIMPERS
 ----------------------------------------
   Chimpers
     Contract: 0x80336ad7a747236ef41f47ed2c7641828a480baa
-    Holders: 1,656
-
-  Chimpers Chronicles
-    Contract: 0x7cc7add921e2222738561d03c89589929cefcf21
-    Holders: 2,032
+    Holders: 1,658
 
   Chimpers Genesis
     Contract: 0x4d55109a17a6914130ace90325dc98cf66ebfa00
     Holders: 79
 
-  Chimpers Pixelworks
-    Contract: 0xd342c260bb971026fe48afed6341ffc4697ee16f
-    Holders: 1,638
-
   Chimpers Dojo Reserve Artworks
     Contract: 0x01a87114a4f2af039997d6a3426d8418154ec851
-    Holders: 741
+    Holders: 742
 
-  Chimpers Cards Amulet
-    Contract: 0x7cc7add921e2222738561d03c89589929cefcf21
-    Holders: 2,032
-
-  ARTIST UNIQUE HOLDERS: 4,545
-  COLLECTIONS: 6
+  ARTIST UNIQUE HOLDERS: 2,267
+  COLLECTIONS: 3
 
 ============================================================
 
@@ -1704,7 +1664,7 @@ ARTIST: XCOPY
 ----------------------------------------
   Grifters
     Contract: 0xc143bbfcdbdbed6d454803804752a064a622c1f3
-    Holders: 6,441
+    Holders: 6,439
 
   DAMAGE CONTROL
     Contract: 0x3e34ff1790bf0a13efd7d77e75870cb525687338
@@ -1726,7 +1686,7 @@ ARTIST: XCOPY
     Contract: 0x55fda4cf1e821c6f13372d6337303a97eea829c1
     Holders: 126
 
-  ARTIST UNIQUE HOLDERS: 7,500
+  ARTIST UNIQUE HOLDERS: 7,499
   COLLECTIONS: 6
 
 ============================================================
@@ -1761,8 +1721,8 @@ ARTIST: YOSHISODEOKA
 OVERALL SUMMARY
 ----------------------------------------
 Total Artists: 68
-Total Collections: 320
-Total Individual Collection Holders: 76,161
-Total Unique Holders (No Duplicates): 44,699
-Duplicate Rate: 41.3%
+Total Collections: 310
+Total Individual Collection Holders: 65,455
+Total Unique Holders (No Duplicates): 40,570
+Duplicate Rate: 38.0%
 

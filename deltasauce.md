@@ -1,6 +1,6 @@
 DeltaSauce Art Editions - 0x10b712f8c8419b84394368af356c63eff5661c63
 DeltaSauce Early Works - 0x12d683b7523cb0f4b57bf63a6e55a82457ef6c8d
+Nomadic Nouveau - 0x76156af86a45d4b343bbdc1bca99556d03cb59b6
 Liminalism - 0x2ee6f1c70010e99d7b7daf8f3041c678c74042e8
 Deep Thought - 0x515c5162148a709e5e5285140e453ee80c809b84
-Nomadic Nouveau - 0x76156af86a45d4b343bbdc1bca99556d03cb59b6
 Parallels - 0x0855bc805a74f2ca8d636d33e4bf4f983589ea08

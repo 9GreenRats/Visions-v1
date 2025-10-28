@@ -1,6 +1,3 @@
 Chimpers - 0x80336ad7a747236ef41f47ed2c7641828a480baa
-Chimpers Chronicles - 0x7cc7add921e2222738561d03c89589929cefcf21
 Chimpers Genesis - 0x4d55109a17a6914130ace90325dc98cf66ebfa00
-Chimpers Pixelworks - 0xd342c260bb971026fe48afed6341ffc4697ee16f
 Chimpers Dojo Reserve Artworks - 0x01a87114a4f2af039997d6a3426d8418154ec851
-Chimpers Cards Amulet - 0x7cc7add921e2222738561d03c89589929cefcf21

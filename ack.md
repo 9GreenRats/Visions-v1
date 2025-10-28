@@ -1,14 +1,12 @@
 ACK EDITIONS - 0x232a68a51d6e07357ae025d2a459c16077327102
 ACK Unique Editions / 1 of 1's - 0xd33bc0af2dc4e39cbaef4beff8d1fb3c00c2e7a3
-The Great Color Study - 0x9f803635a5af311d9a3b73132482a95eb540f71a
 ACKFTW - 0x38fb6b6205436082612aadeca74beb97717e0206
 The Broken Keys - 0xd90829c6c6012e4dde506bd95d7499a04b9a56de
+servants of the Muse - 0xd3f9551e9bc926cc180ac8d3e27364f4081df624
+Love Blossoms - 0x4dc171080dfd7aa66ca4316314b234727f06957b
 ACKPFP - 0x7d0874f682c42f0fe907baf7785d9dcb5a0b1285
 Warothys - 0x3c72d904a2006c02e4ebdbab32477e9182d9e59d
-servants of the Muse - 0xd3f9551e9bc926cc180ac8d3e27364f4081df624
 Blockchain Murder - 0x4d701b75dddb78007aff5758e1e73a2e9968280b
 ACKek - 0x5976402820f805d2ec9a95e8e21294120088981f
-Ackstract Editions - 0xb2e6951a52d38814ed3ce2f4b9bec26091304747
 heart you by a.c.k. - 0x149b579e48b7f03c45b5c96ffd44555b2f9ee8a3
-Love Blossoms - 0x4dc171080dfd7aa66ca4316314b234727f06957b
 Her favorite flowers - 0xa3cdefc4aea0407937ac3ea127b7491f24e5fe63

@@ -1,4 +1,4 @@
 Quasimondo Collection - 0x9498e391ca49722988fc4da4d0d8c9c987ce8961
 Quasimondo - 0xae28f53deb0d0dbb224bedfe3b70f1095781befb
-Mare Nostrum - 0x63239296df09917e476ee15804eae93ccb418b88
-Verisart - 0xe49b9eb62efbc9945564414a7d5fe45911d67505
+Mare Nostrum - 0x8b8b4b0b8b8b4b0b8b8b4b0b8b8b4b0b8b8b4b0b
+Verisart - 0x9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c
